@@ -4,11 +4,7 @@ def numwords_instring(stringin):
     for word in dumplist:
         wordcount += 1
 
-<<<<<<< HEAD
     print (f"Found {wordcount} total words") 
-=======
-    print (f"{wordcount} words found in the document") 
->>>>>>> f5a07e26cc930b80736f434f8baf48d428af3629
     return wordcount
 
 
@@ -20,7 +16,6 @@ def charcount_instring(stringin):
             counter[char] = 1
         elif char in counter:
             counter[char] += 1
-<<<<<<< HEAD
     #print (counter)
     return counter
 
@@ -42,7 +37,3 @@ def sort_dict(dictin):
 
     return newlist
 
-=======
-    print (counter)
-    return counter
->>>>>>> f5a07e26cc930b80736f434f8baf48d428af3629
